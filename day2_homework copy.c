@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void) {
+    int score[5] = {10, 20, 30, 40, 50};
+    int *p = score;
+    int total = 0;
+
+
+    printf("총합 : %d\n", total);
+    return 0;
+}
